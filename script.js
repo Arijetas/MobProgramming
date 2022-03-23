@@ -18,9 +18,12 @@ console.log(titles);
 console.log(content);
 
 for (let index = 0; index < commands.length; index++) {
+  console.log(index);
   titles.innerHTML += ` <a class="list-group-item list-group-item-action" href="#list-item-${index+1}">${commands[index]}</a>`
   content.innerHTML += `<h4 id="list-item-${index+1}">${commands[index]}</h4>
 <p>...</p>`;
   console.log(titles.innerHTML);
   console.log(content.innerHTML);
 }
+
+//hej
